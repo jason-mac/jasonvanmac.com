@@ -1,0 +1,38 @@
+<!doctype html>
+
+<html>
+  <head lang="en">
+    <meta charset="UTF-8" />
+    <meta name="author" content="jason mac" />
+    <meta
+      name="description"
+      content="page contains things im learning for html"
+    />
+    <title>my web bage</title>
+    <link rel="icon" href="html5.png" type="image/x-icon" />
+    <link rel="stylesheet" href="main.css" type="text/css" />
+  </head>
+  <body>
+    <h1>About Me</h1>
+    <hr />
+    <br />
+    <li><a href="index.html">Home</a></li>
+  </body>
+  <hr />
+
+  <ul>
+    <li>Download an <a href="html5.png" download>HTML5 Icon</a></li>
+    <li>root an <a href="/">base</a></li>
+    <li>
+      gogoel an <a href="https://www.google.com/" target="_blank">google</a>
+    </li>
+    <li>
+      contact at, not recommended to do this
+      <a href="html5.png" download>HTML5 Icon</a>
+    </li>
+  </ul>
+  <script>
+    const ws = new WebSocket("ws://localhost:8000/reload");
+    ws.onmessage = () => location.reload();
+  </script>
+</html>

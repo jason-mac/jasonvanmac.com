@@ -1,0 +1,63 @@
+<!doctype html>
+
+<html>
+  <head lang="en">
+    <meta charset="UTF-8" />
+    <meta name="author" content="Jason Mac Web Page " />
+    <link rel="icon" href="html5.png" type="image/x-icon" />
+    <link rel="stylesheet" href="main.css" type="text/css" />
+    <title>Jason Mac | Computer Engineering Student</title>
+  </head>
+  <body>
+    <header>
+      <h1>Jason Mac</h1>
+      <nav>
+        <a href="resume.pdf" target="_blank">Resume</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+    <hr>
+
+    <main>
+
+      <section id="about">
+        <h2>About Me</h2>
+        <p>
+          Hello, I'm Jason, a 3rd-year Computer Engineering student at the University of British Columbia. 
+          I enjoy learning how computers work as a whole, from low-level hardware and systems all the way up to high-level software and applications.
+          I have taken a keen interest in the C-Programming language and am currently writing a replica of portions of the C++ stl library in C.
+          <br>
+          A few of my favourite courses so far have been Algorithm Design and Analysis (CPSC 320), Probability (MATH 302), and Relational Databases (CPSC 304).
+          <br>
+          Some future courses I am looking forward to take are Computer Networks, Distributed Systems, and Machine Learning.
+          <br>
+          I hope to get a job in software engineering, building upon the topics I have learned in school.
+        </p> 
+        <h3>Technologies and Languages</h3>
+        <ul>
+          <li>
+            Languages: Python, C/C++, Java, JavaScript, SQL
+          </li>
+          <li>
+            Tools: Git, Github, Neovim, Visual Studio, Jupyter Notebook
+          </li>
+          <li>
+            Databases: PostgreSQL, OracleDB
+          </li>
+        </ul>
+        <h3>Hobbies</h3>
+        <p>
+          My hobbies are powerlifting, playing basketball and studying in pure mathematics. Fun fact, my peak bench is 315lbs! I also enjoy self-studying topics in Real Analysis.
+        </p>
+      </section>
+
+
+    </main>
+    <footer>
+
+    </footer>
+  <script>
+    const ws = new WebSocket("ws://localhost:8000/reload");
+    ws.onmessage = () => location.reload();
+  </script>
+</html>
