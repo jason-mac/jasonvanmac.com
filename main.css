@@ -1,32 +1,17 @@
-html {
-  font-size: 20px;
-}
-
 body {
-  background-color: #333;
-  color: whitesmoke;
+  font-size: 23px;
+  background: lightblue;
+  color: darkblue;
 }
 
-a {
-  color: aliceblue;
-}
-
-a:visited {
-  color: lightgrey;
-}
-
-a:hover,
-a:active {
-  color: #eee;
-}
-
-table,
-tr,
-th,
-td,
-caption {
-  border: 1px solid #eee;
-  font-family: "Courier New", Courier, monospace;
-  border-collapse: collapse;
-  padding: 0.5rem;
+.tools {
+  width: 50%; /* box width */
+  height: 40%; /* box height */
+  background-color: blueviolet; /* green background */
+  border: 3px solid black; /* black border */
+  padding: 0.1%; /* inner spacing */
+  margin: 5%; /* outer spacing */
+  color: white; /* text color */
+  text-align: left; /* center text */
+  line-height: 2rem; /* vertically center text */
 }
