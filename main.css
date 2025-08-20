@@ -1,7 +1,17 @@
+@font-face {
+  font-family: "gohu";
+  src: url("./fonts/GohuFontuni14NerdFontPropo-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  font-family: gohu;
+}
 body {
-  font-size: 23px;
+  font-size: 2rem;
   background: lightblue;
   color: darkblue;
+  padding: 10%;
 }
 
 .tools {
@@ -14,4 +24,9 @@ body {
   color: white; /* text color */
   text-align: left; /* center text */
   line-height: 2rem; /* vertically center text */
+}
+
+p {
+  line-height: 1.5;
+  font-family: gohu;
 }

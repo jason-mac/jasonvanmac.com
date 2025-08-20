@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="author" content="Jason Mac Web Page " />
     <link rel="icon" href="html5.png" type="image/x-icon" />
-    <link rel="stylesheet" href="main.css"/>
+    <link rel="stylesheet" href="main.css" />
     <title>Jason Mac | Computer Engineering Student</title>
   </head>
   <body>
@@ -16,48 +16,116 @@
         <a href="#contact">Contact</a>
       </nav>
     </header>
-    <hr>
+    <hr />
 
     <main>
-
       <section id="about">
         <h2>About Me</h2>
         <p>
-          Hello, I'm Jason, a 3rd-year Computer Engineering student at the University of British Columbia. 
-          I enjoy learning how computers work as a whole, from low-level hardware and systems all the way up to high-level software and applications.
-          I have taken a keen interest in the C-Programming language and am currently writing a replica of portions of the C++ stl library in C.
-          <br>
-          A few of my favourite courses so far have been Algorithm Design and Analysis (CPSC 320), Probability (MATH 302), and Relational Databases (CPSC 304).
-          <br>
-          Some future courses I am looking forward to take are Computer Networks, Distributed Systems, and Machine Learning.
-          <br>
-          I hope to get a job in software engineering, building upon the topics I have learned in school.
-        </p> 
+          Hello, I'm Jason, a 3rd-year Computer Engineering student at the
+          University of British Columbia. I enjoy learning how computers work as
+          a whole, from low-level hardware and systems all the way up to
+          high-level software and applications. I have taken a keen interest in
+          the C-Programming language and am currently writing a replica of
+          portions of the C++ stl library in C.
+          <br />
+          A few of my favourite courses so far have been Algorithm Design and
+          Analysis (CPSC 320), Probability (MATH 302), and Relational Databases
+          (CPSC 304).
+          <br />
+          Some future courses I am looking forward to take are Computer
+          Networks, Distributed Systems, and Machine Learning.
+          <br />
+          I hope to get a job in software engineering, building upon the topics
+          I have learned in school.
+        </p>
         <h3>Technologies and Languages</h3>
         <div class="tools">
-        <ul>
-          <li>
-            Languages: Python, C/C++, Java, JavaScript, SQL
-          </li>
-          <li>
-            Tools: Git, Github, Neovim, Visual Studio, Jupyter Notebook
-          </li>
-          <li>
-            Databases: PostgreSQL, OracleDB
-          </li>
-        </ul>
+          <ul>
+            <li>Languages: Python, C/C++, Java, JavaScript, SQL</li>
+            <li>Tools: Git, Github, Neovim, Visual Studio, Jupyter Notebook</li>
+            <li>Databases: PostgreSQL, OracleDB</li>
+          </ul>
         </div>
         <h3>Hobbies</h3>
         <p>
-          My hobbies are powerlifting, playing basketball and studying in pure mathematics. Fun fact, my peak bench is 315lbs! I also enjoy self-studying topics in Real Analysis.
+          My hobbies are powerlifting, playing basketball and studying in pure
+          mathematics. Fun fact, my peak bench is 315lbs! I also enjoy
+          self-studying topics in Real Analysis.
         </p>
       </section>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.
+      </p>
+
+      <p>
+        Vivamus laoreet, justo at dapibus facilisis, purus nunc tincidunt leo,
+        vitae laoreet sapien nisl in ligula.
+      </p>
+
+      <p>
+        Curabitur et eros eu libero fermentum ullamcorper. Maecenas euismod
+        justo nec lectus dictum, a interdum nulla cursus.
+      </p>
+
+      <p>
+        Integer vel sapien vitae libero feugiat ullamcorper. Proin id lectus sed
+        nisi vehicula luctus non non ligula.
+      </p>
+
+      <p>
+        Aliquam erat volutpat. Pellentesque habitant morbi tristique senectus et
+        netus et malesuada fames ac turpis egestas.
+      </p>
     </main>
     <footer>
+      <section>
+        <h2>Lets's Connect!</h2>
 
+        <form id="contact" action="https://example.com/submit" method="post">
+          <p>
+            <label for="name">Name:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Your name"
+              required
+            />
+          </p>
+
+          <p>
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Your email"
+              required
+            />
+          </p>
+
+          <p>
+            <label for="message">Message:</label>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Your message"
+              rows="5"
+              required
+            ></textarea>
+          </p>
+
+          <p>
+            <button type="submit">Send Message</button>
+          </p>
+        </form>
+      </section>
     </footer>
-  <script>
-    const ws = new WebSocket("ws://localhost:8000/reload");
-    ws.onmessage = () => location.reload();
-  </script>
+    <script>
+      const ws = new WebSocket("ws://localhost:8000/reload");
+      ws.onmessage = () => location.reload();
+    </script>
+  </body>
 </html>
